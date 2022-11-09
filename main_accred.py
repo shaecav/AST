@@ -32,7 +32,7 @@ if page == "1. Introduction":
 
     st.subheader('Are higher education accrediting agencies adding diversity, equity, and inclusion requirements to ensure colleges are advancing educational access and balance?')
     st.markdown('Accreditation is a huge investment meant to benefit students. It is estimated that 73% of full-time college students in the United States use federal subsidies to pay for college, and The Department of Education (ED) specifies that an institution must be accredited by a nationally recognized accreditor for students to receive federal student aid. At the same time, critics suggested that the current accreditation process is ineffective because accreditors focus primarily on **college inputs**, rather than **student outcomes**. ')
-    st.markdown('The following training is designed for professional accreditors to reflect on current practices and current situations revolving around accreditation through the lens of diversity, equity and inclusion metrics. The data used in this training were derived from IPEDS.')
+    st.markdown('The following training is designed for professional accreditors to reflect on current practices and current situations revolving around accreditation through the lens of diversity, equity and inclusion metrics. The data used in this training were derived from Integrated Postsecondary Education Data System (IPEDS).')
 
     st.subheader('Start the training by navigating the sidebar.')
 
@@ -237,20 +237,27 @@ if page == "5. Conclusion":
     lottie_json = load_lottieurl(lottie_url2)
     st_lottie(lottie_json, height=350)
 
-    st.markdown("Remember that this training wasn’t designed to criticize current accreditation practices, but to spark self reflection and critical thinking. As you look back at the findings and insights that you have just observed and the answers you submitted, we hope that you will also think about the kind of education system that you would hope to see in the future - and the changes that we would have to make to get there.")
+    st.markdown("Remember that this training wasn’t designed to criticize current accreditation practices, but to spark"
+                " self reflection and critical thinking. As you look back at the findings and insights that you have "
+                "just observed and the answers you submitted, we hope that you will also think about the kind of "
+                "education system that you would hope to see in the future - and the changes that we would have to make "
+                "to get there.")
     st.subheader("Additional resources on diversity, equity and inclusion through the lens of college accreditation:")
     resource1, resource2, resource3 = st.columns(3)
 
     with resource1:
-        st.markdown("[![Foo](https://i.dell.com/is/image/DellContent/content/dam/uwaem/production-design-assets/en/services/Support-services/Networking/Campus-Branch-Switches/thumbnail-256x256.jpg?wid=640&fit=constrain)](https://www.higheredtoday.org/2021/01/13/refocusing-diversity-equity-inclusion-pandemic-beyond-lessons-community-practice/)")
+        st.markdown("[![Foo](https://i.dell.com/is/image/DellContent/content/dam/uwaem/production-design-assets/en/services/Support-services/Networking/Campus-Branch-Switches/thumbnail-256x256.jpg?wid=640&fit=constrain)]"
+                    "(https://www.higheredtoday.org/2021/01/13/refocusing-diversity-equity-inclusion-pandemic-beyond-lessons-community-practice/)")
         st.caption('Refocusing on DEI During the Pandemic and Beyond from Higher Education Today')
 
     with resource2:
-        st.markdown("[![Foo](https://d26oc3sg82pgk3.cloudfront.net/files/media/edit/image/33032/square_thumb%402x.jpg)](https://www.chea.org/diversity-equity-and-inclusion-and-accreditation)")
+        st.markdown("[![Foo](https://d26oc3sg82pgk3.cloudfront.net/files/media/edit/image/33032/square_thumb%402x.jpg)]"
+                    "(https://www.chea.org/diversity-equity-and-inclusion-and-accreditation)")
         st.caption('Accrediation in the News by CHEA (Council for Higher Education Accrediation)')
 
     with resource3:
-        st.markdown("[![Foo](https://www.usnews.com/dims4/USNEWS/68b0f1d/17177859217/thumbnail/256x256/quality/85/?url=https%3A%2F%2Fmedia.beam.usnews.com%2Fa0%2F84%2F03561d8d4c458238d4c477b3d3e0%2F210521-submitted.17__9.jpg)](https://www.insightintodiversity.com/do-u-s-accrediting-agencies-do-enough-to-assess-diversity-efforts-2/)")
+        st.markdown("[![Foo](https://www.usnews.com/dims4/USNEWS/68b0f1d/17177859217/thumbnail/256x256/quality/85/?url=https%3A%2F%2Fmedia.beam.usnews.com%2Fa0%2F84%2F03561d8d4c458238d4c477b3d3e0%2F210521-submitted.17__9.jpg)]"
+                    "(https://www.insightintodiversity.com/do-u-s-accrediting-agencies-do-enough-to-assess-diversity-efforts-2/)")
         st.caption('Do U.S. Accrediting Agencies Do Enough to Assess Diversity Efforts? by Insights to Diversity')
 
 
