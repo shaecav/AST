@@ -3,4 +3,4 @@ pandas
 plotly
 requests
 numpy
-streamlit_lottie
+lottie
